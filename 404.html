@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="/img/favicon.ico">
-        <title>My Docs</title>
+        <title>Xuan's notebook</title>
         <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="/css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="/css/base.css" rel="stylesheet">
@@ -31,11 +31,42 @@
 
         <!-- Collapsed navigation -->
         <div class="navbar-header">
-            <a class="navbar-brand" href="/">My Docs</a>
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Xuan's notebook</a>
         </div>
 
         <!-- Expanded navigation -->
         <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Notebook <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+  <li class="dropdown-submenu">
+    <a href="#">Programing</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="/notesmd/programing/python/">python</a>
+</li>
+    </ul>
+  </li>
+                        </ul>
+                    </li>
+                    <li >
+                        <a href="/me/">Me</a>
+                    </li>
+                </ul>
 
             <ul class="nav navbar-nav navbar-right">
                 <li>
@@ -43,6 +74,9 @@
                         <i class="fa fa-search"></i> Search
                     </a>
                 </li>
+                    <li>
+                        <a href="https://github.com/xuanblo/notebook/"><i class="fa fa-github"></i> GitHub</a>
+                    </li>
             </ul>
         </div>
     </div>
@@ -62,6 +96,7 @@
 
         <footer class="col-md-12">
             <hr>
+                <p>2018-4</p>
             <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>var base_url = '';</script>
