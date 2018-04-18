@@ -2,27 +2,27 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "text": "About me\n\u00b6\n\n\nI am a PhD student at XTBG. \nMore about me\n.\n\n\nSite map\n\u00b6\n\n\nlinks\n\u00b6\n\n\n\n\n\n\nbiopython\n\n\n\n\n\n\ndjango\n\n\n\n\n\n\nmarkdown\n\n\n\n\n\n\nbiopython\n\n\n\n\n\n\ndjango\n\n\n\n\n\n\nmarkdown\n\n\n\n\n\n\nbiopython\n\n\n\n\n\n\ndjango\n\n\n\n\n\n\nmarkdown\n\n\n\n\n\n\nbiopython\n\n\n\n\n\n\ndjango\n\n\n\n\n\n\nmarkdown",
             "title": "Home"
         },
         {
-            "location": "/#welcome-to-mkdocs",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "Welcome to MkDocs"
+            "location": "/#about-me",
+            "text": "I am a PhD student at XTBG.  More about me .",
+            "title": "About me"
         },
         {
-            "location": "/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
-            "title": "Commands"
+            "location": "/#site-map",
+            "text": "",
+            "title": "Site map"
         },
         {
-            "location": "/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
+            "location": "/#links",
+            "text": "biopython    django    markdown    biopython    django    markdown    biopython    django    markdown    biopython    django    markdown",
+            "title": "links"
         },
         {
             "location": "/notesmd/programing/python/",
-            "text": "this is python",
+            "text": "this is python\n\u00b6",
             "title": "python"
         },
         {
@@ -31,9 +31,24 @@
             "title": "this is python"
         },
         {
+            "location": "/project/",
+            "text": "What i have done\n\u00b6",
+            "title": "Project on Github"
+        },
+        {
+            "location": "/project/#what-i-have-done",
+            "text": "",
+            "title": "What i have done"
+        },
+        {
+            "location": "/publish/",
+            "text": "",
+            "title": "Publish"
+        },
+        {
             "location": "/me/",
-            "text": "Who i am?",
-            "title": "Me"
+            "text": "Who i am?\n\u00b6",
+            "title": "About me"
         },
         {
             "location": "/me/#who-i-am",
