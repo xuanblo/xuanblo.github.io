@@ -3,7 +3,7 @@
         {
             "location": "/",
             "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Welcome to MkDocs"
+            "title": "Home"
         },
         {
             "location": "/#welcome-to-mkdocs",
@@ -19,6 +19,26 @@
             "location": "/#project-layout",
             "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
             "title": "Project layout"
+        },
+        {
+            "location": "/notesmd/programing/python/",
+            "text": "this is python",
+            "title": "python"
+        },
+        {
+            "location": "/notesmd/programing/python/#this-is-python",
+            "text": "",
+            "title": "this is python"
+        },
+        {
+            "location": "/me/",
+            "text": "Who i am?",
+            "title": "Me"
+        },
+        {
+            "location": "/me/#who-i-am",
+            "text": "",
+            "title": "Who i am?"
         }
     ]
 }
