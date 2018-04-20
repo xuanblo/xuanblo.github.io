@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "About me\n\u00b6\n\n\nI am a PhD student at XTBG. \nMore about me\n.\n\n\nSite map\n\u00b6\n\n\nlinks\n\u00b6\n\n\n\n\n\n\nbiopython\n\n\n\n\n\n\ndjango\n\n\n\n\n\n\nmarkdown\n\n\n\n\n\n\nbiopython\n\n\n\n\n\n\ndjango\n\n\n\n\n\n\nmarkdown\n\n\n\n\n\n\nbiopython\n\n\n\n\n\n\ndjango\n\n\n\n\n\n\nmarkdown\n\n\n\n\n\n\nbiopython\n\n\n\n\n\n\ndjango\n\n\n\n\n\n\nmarkdown",
+            "text": "About me\n\u00b6\n\n\nI am a PhD student at XTBG. \nMore about me\n.\n\n\nSite map\n\u00b6\n\n\nlinks\n\u00b6\n\n\n\n\n\n\nbiopython\n\n\n\n\n\n\nbiopython\n\n\n\n\n\n\nSnakemake\n\n\n\n\n\n\nmarkdown-material",
             "title": "Home"
         },
         {
@@ -17,18 +17,173 @@
         },
         {
             "location": "/#links",
-            "text": "biopython    django    markdown    biopython    django    markdown    biopython    django    markdown    biopython    django    markdown",
+            "text": "biopython    biopython    Snakemake    markdown-material",
             "title": "links"
         },
         {
             "location": "/notesmd/programing/python/",
-            "text": "this is python\n\u00b6",
-            "title": "python"
+            "text": "python3\n\u00b6\n\n\n\u6559\u7a0b\n\u00b6\n\n\n\n\npython3 cookbook\n | \n\u672c\u5730\u4e0b\u8f7d\n\n\nrunoob\u83dc\u9e1f\n\n\n\n\n\u8bfb\u53d6\u6587\u4ef6\n\u00b6\n\n\nf\n \n=\n \nopen\n(\n\"read.txt\"\n,\n \n\"r\"\n)\n \n# \u6587\u672c\u6a21\u5f0f\n\n\n\nf\n \n=\n \nopen\n(\n\"read.txt\"\n,\n \n\"r\"\n,\n \nencoding\n \n=\n \n\"utf-8\"\n)\n \n# \u8bfb\u6587\u4ef6\u7684\u65f6\u5019\u6ce8\u610f\u7f16\u7801\u65b9\u5f0f,\n\n\n#python\u9ed8\u8ba4\u662funicode\u7f16\u7801\uff0c\u4f46\u662f\u8bfb\u53d6\u7684\u6587\u4ef6\u5982\u6709\u4e00\u4e9b\u4e2d\u6587\u7a7a\u683c\u3001\u6a2a\u6760\u3001\u5e0c\u814a\u5b57\u6bcd\u7684\n\n\n#\u65f6\u5019\u4f1a\u62a5\u9519\u3002\u5728web\u5f00\u53d1\u4e2d\u7edf\u4e00\u4f7f\u7528utf-8\u7f16\u7801\u65b9\u5f0f\u6700\u597d\uff0c\u56e0\u4e3a\u7edd\u5927\u591a\u6570\u6d4f\u89c8\u5668\u9ed8\u8ba4\u90fd\u662futf-8\u7f16\u7801\n\n\n\nf\n \n=\n \nopen\n(\n\"read.txt\"\n,\n \n\"rb\"\n)\n \n# \u4e8c\u8fdb\u5236\u6a21\u5f0f\n\n\n\nwhole_file\n \n=\n \nf\n.\nread\n()\n \n# \u8bfb\u53d6\u6574\u4e2a\u6587\u4ef6\n\n\n\nfirst_line\n \n=\n \nf\n.\nreadline\n()\n \n# \u8bfb\u53d6\u4e00\u884c\n\n\n\nlines\n \n=\n \nf\n.\nreadlines\n()\n \n# \u8bfb\u53d6\u6587\u4ef6\u5230\u4e00\u4e2a\u5217\u8868\n\n\n\nf\n.\nclose\n()\n \n# \u5173\u95ed\u6587\u4ef6\n\n\n\n\n\n\u5199\u6587\u4ef6\n\u00b6\n\n\nf\n \n=\n \nopen\n(\n\"write\"\n,\n \n\"w\"\n)\n \n# \u6587\u672c\u6a21\u5f0f\n\n\nf\n \n=\n \nopen\n(\n\"write\"\n,\n \n\"wb\"\n)\n \n# \u4e8c\u8fdb\u5236\u6a21\u5f0f\n\n\n\n\n\n\u53bb\u6389\u5b57\u7b26\u4e32\u524d\u540e\u7684\u7a7a\u767d\u5b57\u7b26\n\u00b6\n\n\ntmp_str\n \n=\n \n' a b '\n\n\nstr\n \n=\n \nstr\n.\nstrip\n()\n \n# \u8bfb\u53d6\u6587\u4ef6\u7684\u65f6\u5019\u8fdb\u884c\u6b64\u64cd\u4f5c\uff0c\u597d\u5904\u592a\u591a\u4e86, \u6bd4\u5982\u4e2d\u6587\u7684\u7279\u6b8a\u5b57\u7b26\u5728linux\u6216\u8005\u540e\u7eed\u5904\u7406\u540d\u5b57\u4e0d\u5339\u914d\n\n\n\n\n\n\u5224\u65ad\u5b57\u7b26\u4e32\u7684\u8d77\u59cb\u548c\u7ed3\u5c3e\n\u00b6\n\n\nstr\n.\nstartswith\n(\n'+-'\n)\n \n# \u8d77\u59cb\n\n\nstr\n.\nendswith\n(\n'+-'\n)\n \n# \u7ed3\u5c3e\n\n\n# \u5982\u679c\u4f60\u60f3\u68c0\u67e5\u591a\u79cd\u5339\u914d\u53ef\u80fd\uff0c\u53ea\u9700\u8981\u5c06\u6240\u6709\u7684\u5339\u914d\u9879\u653e\u5165\u5230\u4e00\u4e2a\u5143\u7ec4\u4e2d\u53bb\uff0c \u7136\u540e\u4f20\u7ed9 startswith() \u6216\u8005 endswith() \u65b9\u6cd5\uff1a\n\n\nfor\n \ni\n \nin\n \ncancer_related_lncRNA_df\n.\nindex\n:\n\n    \nfor\n \nhallmark\n \nin\n \ncancer_hallmarks\n:\n\n        \ncell_val\n \n=\n \ncancer_related_lncRNA_df\n[\nhallmark\n][\ni\n]\n\n        \ncell_val\n.\nstrip\n()\n\n        \nif\n \ncell_val\n.\nstartswith\n((\n'+'\n,\n \n'-'\n)):\n\n            \nprint\n(\ncell_val\n,\n \n\"yes\"\n)\n\n        \nbreak\n\n\n\n\n\n\u5206\u5272\u5b57\u7b26\u4e32, \u548c\u8fde\u63a5\u5b57\u7b26\u4e32\n\u00b6\n\n\n# \u5206\u5272\n\n\ntmp_str\n \n=\n \n'a b c d'\n\n\n\nstrlist\n \n=\n \nstr\n.\nsplit\n(\n' '\n)\n\n\n\n# \u8fde\u63a5\n\n\ntmp_list\n \n=\n \n[\n'a'\n,\n \n'1'\n,\n \n'b'\n]\n\n\n\ntmp_str\n \n=\n \n' '\n.\njoin\n(\ntmp_list\n)\n \n# \u5b57\u7b26\u4e32\u662f\u4e00\u4e2a\u5bf9\u8c61\uff0c\u8fd9\u91cc\u6bd4\u8f83\u60f3\u5bf9\u5bf9\u8c61\u8fdb\u884c\u64cd\u4f5c\n\n\n\n\n\n\u5bf9\u6587\u4ef6\u5730\u5740\u7684\u64cd\u4f5cos.path\n\u00b6\n\n\nimport\n \nos\n\n\n\ncurrent_path\n \n=\n \nos\n.\ngetcwd\n()\n\n\n\nbase_path\n \n=\n \nos\n.\npath\n.\ndirname\n(\ncurrent_path\n)\n\n\n\nlncrna_glist_filename\n \n=\n \n\"fish.txt\"\n\n\n\nfile_path\n \n=\n \nos\n.\npath\n.\njoin\n(\nbase_path\n,\n \n\"Tempresult\"\n,\n \nlncrna_glist_filename\n)\n\n\n\n\n\n\u4e0eos.path\u914d\u5408\u65b0\u5efa\u6587\u4ef6\u5939\n\u00b6\n\n\n# path = \u6587\u4ef6\u8def\u5f84\n\n\n\nos\n.\npath\n.\nexists\n(\npath\n)\n \n# \u5224\u65ad\u6587\u4ef6\u662f\u5426\u5b58\u5728\n\n\n\nos\n.\npath\n.\njoin\n(\n'/home'\n,\n \n'zhangxuan'\n,\n \n'Project'\n,\n \n'readme.txt'\n)\n \n# \u6587\u4ef6\u8def\u5f84\u8fde\u63a5\n\n\n\nos\n.\nmakedirs\n(\n'\u6587\u4ef6\u5939\u540d'\n,\n \nexist_ok\n \n=\n \nTrue\n)\n \n# \u65b0\u5efa\u6587\u4ef6\u5939\uff0c\u5982\u679c\u5df2\u7ecf\u5b58\u5728exist_ok = True\u4e0d\u4f1a\u62a5\u9519\n\n\n\n\n\n\u683c\u5f0f\u5316\u5b57\u7b26\u4e32\n\u00b6\n\n\n# \u5bf9\u5b57\u7b26\u4e32\u7684\u4f7f\u7528\uff0c\u4e3b\u8981\u4e0d\u8981\u4f7f\u7528\u5173\u952e\u5b57\uff0c\u6bd4\u5982str\u662fpython3\u4e2d\u7684\u4e00\u4e2a\u51fd\u6570\n\n\ntmp_str\n \n=\n \n\"\u8fd9\u662f\u7b2c\u4e00\u4e2a\u53c2\u6570param1 = {}; \u8fd9\u662f\u7b2c\u4e8c\u4e2a\u53c2\u6570param2 = {}\"\n.\nformat\n(\nparam1\n,\n \nparam2\n)\n\n\n\n# \u4fdd\u7559\u6709\u6548\u5b57\u7b26\u5982\u4f55\u64cd\u4f5c\uff1f\u7b49\u540e\u7eed\u78b0\u5230\u4e4b\u540e\u6dfb\u52a0\n\n\n# put code here\n\n\n\n\n\n\u5b57\u5178\uff08\u54c8\u5e0c\uff09\u7684\u4f7f\u7528\n\u00b6\n\n\n# \u4e00\u7ef4\u5b57\u5178\n\n\nfasta_sequence\n \n=\n \ndict\n()\n \n# \u5b9a\u4e49\n\n\n\nfasta_sequence\n[\n'gene1'\n]\n \n=\n \n'ATGC'\n\n\n\nfasta_sequence\n[\n'gene2'\n]\n \n=\n \n'ATGC'\n\n\n\n# result: {'gene1': 'ATGC', 'gene2': 'ATGC'}\n\n\n\n# \u4e8c\u7ef4\u5b57\u5178\n\n\nfasta_sequence\n[\n'gene1'\n][\n'gene2'\n]\n \n=\n \n'ATGC'\n \n# \u4e8c\u7ef4\u5b57\u5178\u4e0d\u80fd\u76f4\u63a5\u8d4b\u503c\n\n\n\n# \u4e0a\u9762\u7684\u4ee3\u7801\u4f1a\u51fa\u73b0\u8fd9\u79cd\u9519\u8bef\uff1aTypeError: 'str' object does not support item assignment\n\n\n\n# \u5e94\u8be5\u8fd9\u6837\u521b\u5efapython\u4e8c\u7ef4\u54c8\u5e0c\uff08\u5b57\u5178\uff09\n\n\nfasta_sequence\n \n=\n \ndict\n()\n\n\n\nfasta_sequence\n.\nsetdefault\n(\n'gene1'\n,\n \n{})\n\n\n\nfasta_sequence\n[\n'gene1'\n][\n'gene2'\n]\n \n=\n \n'ATGC'\n\n\n\nresult\n:\n \n{\n'gene1'\n:\n \n{\n'gene2'\n:\n \n'a'\n}}\n\n\n\n\n\nlambda\u51fd\u6570\u7684\u4f7f\u7528\n\u00b6\n\n\ngene_list\n \n=\n \n[\n' gene1'\n,\n \n'gene2 '\n]\n\n\n\nmap_object\n \n=\n \nmap\n(\nlambda\n \nx\n:\nx\n.\nstrip\n(),\n \ngene_list\n)\n \n# \u8fd9\u91cc\u8fd4\u56de\u7684\u662f\u4e00\u4e2amap\u5bf9\u8c61\uff0c \u8981\u8f6c\u53d8\u6210list\u624d\u597d\u7528\n\n\n\ngene_new_list\n \n=\n \nlist\n(\nmap_object\n)\n\n\n\n# \u8fd9\u91cc\u6709\u4e2a\u4f8b\u5b50\uff1a\u628a\u5217\u8868\u6240\u6709\u7684\u5143\u7d20\u53d8\u6210\u5b57\u7b26\u4e32\u7c7b\u578b\n\n\n\ntmp_list\n \n=\n \n[\n'str1'\n,\n \n123\n]\n\n\n\ntmp_str_list\n \n=\n \nlist\n(\nmap\n(\nstr\n,\n \ntmp_list\n))\n\n\n\n\n\n\u5404\u79cd\u7c7b\u578b\u8f6c\u6362\n\u00b6\n\n\nnum\n \n=\n \n'123'\n\n\n\ntmp_str\n \n=\n \nstr\n(\nnum\n)\n \n# \u6570\u503c\u7c7b\u578b\u6362\u5b57\u7b26\u4e32\u7c7b\u578b\n\n\n\ntmp_chr\n \n=\n \n'abc'\n\n\n\ntmp_upper_chr\n \n=\n \ntmp_chr\n.\nupper\n()\n \n# \u5b57\u7b26\u4e32\u5927\u5199\u8f6c\u6362\u6210\u5c0f\u5199\n\n\n\ntmp_upper_chr\n \n=\n \ntmp_upper_chr\n.\nlower\n()\n \n# \u5b57\u7b26\u4e32\u5c0f\u5199\u8f6c\u6362\u6210\u5927\u5199\n\n\n\nnum\n \n=\n \nlist\n(\nrange\n(\n97\n,\n123\n))\n\n\n\nalphabet\n \n=\n \nlist\n(\nmap\n(\nchr\n,\nnum\n))\n \n# chr\u51fd\u6570\u628a\u6570\u503c\u8f6c\u6362\u6210\u5b57\u7b26\n\n\n\nlower_str\n \n=\n \n\"\"\n.\njoin\n(\nalphabet\n)\n\n\n\nupper_str\n \n=\n \nlower_str\n.\nupper\n()\n\n\n\nupper_str\n \n=\n \nupper_str\n \n+\n \n\"0123456789\"\n\n\n\n\n\ntry catch\n\u00b6\n\n\n\n\n\n\n\njson\n\u00b6\n\n\nimport\n \njson\n\n\n\ndata\n \n=\n \n{\n\n    \n'name'\n:\n \n'zhangxuan'\n,\n\n    \n'height'\n:\n \n'162'\n,\n\n    \n'age'\n:\n \n'28'\n\n\n}\n\n\n\njson_str\n \n=\n \njson\n.\ndumps\n(\ndata\n)\n \n# Python\u6570\u636e\u7ed3\u6784\u8f6c\u6362\u6210JSON\n\n\n\ndata1\n \n=\n \njson\n.\nloads\n(\njson_str\n)\n \n# JSON\u7f16\u7801\u7684\u5b57\u7b26\u4e32\u8f6c\u6362\u6210Python\u6570\u636e\u7ed3\u6784\n\n\n\n# \u5982\u679c\u5904\u7406\u7684\u662f\u6587\u4ef6\n\n\n# Writing JSON data\n\n\nwith\n \nopen\n(\n'data.json'\n,\n \n'w'\n)\n \nas\n \nf\n:\n\n    \njson\n.\ndump\n(\ndata\n,\n \nf\n)\n\n\n\n# Reading data back\n\n\nwith\n \nopen\n(\n'data.json'\n,\n \n'r'\n)\n \nas\n \nf\n:\n\n    \ndata\n \n=\n \njson\n.\nload\n(\nf\n)\n\n\n\n\n\n\u6392\u5e8f\n\u00b6\n\n\n# \u5217\u8868\u6392\u5e8f\n\n\nb\n \n=\n \n[\n'b'\n,\n \n'a'\n]\n\n\nb\n.\nsort\n()\n\n\nb\n \n->\n \n[\n'a'\n,\n \n'b'\n]\n\n\n\n# \u5b57\u5178\u8f93\u51fa\u6392\u5e8f\n\n\n\n\n\nlogging\u5305\n\u00b6\n\n\n# ----------------------------------\n\n\nimport\n \nlogging\n\n\n\nlog\n \n=\n \nlogging\n.\ngetLogger\n(\n__name__\n)\n\n\n\nlog\n.\ncritical\n(\n'Host \n%s\n unknown'\n,\n \nhostname\n)\n\n\nlog\n.\nerror\n(\n\"Couldn't find \n%r\n\"\n,\n \nitem\n)\n\n\nlog\n.\nwarning\n(\n'Feature is deprecated'\n)\n\n\nlog\n.\ninfo\n(\n'Opening file \n%r\n, mode=\n%r\n'\n,\n \nfilename\n,\n \nmode\n)\n\n\nlog\n.\ndebug\n(\n'Got here'\n)\n\n\n# ----------------------------------\n\n\n\nsee \nmore\n\n\n\u865a\u62df\u73af\u5883\uff0cenv\n\u00b6\n\n\nvirtualenv\n \u662f\u4e00\u4e2a\u521b\u5efa\u9694\u7edd\u7684Python\u73af\u5883\u7684\u5de5\u5177\u3002\n\n\n\u901a\u8fc7pip3\u5b89\u88c5virtualenv(\u6211\u60f3\u8981python3\u7684\u73af\u5883)\uff1a\n\npip install virtualenv\n\n\n\u6d4b\u8bd5\u4f60\u7684\u5b89\u88c5\n\nvirtualenv --version\n\n\n\u8981\u5f00\u59cb\u4f7f\u7528\u865a\u62df\u73af\u5883\uff0c\u5176\u9700\u8981\u88ab\u6fc0\u6d3b\uff1a\n\nsource my_project/bin/activate\n\n\n\u5982\u679c\u4f60\u5728\u865a\u62df\u73af\u5883\u4e2d\u6682\u65f6\u5b8c\u6210\u4e86\u5de5\u4f5c\uff0c\u5219\u53ef\u4ee5\u505c\u7528\u5b83\uff1a\n\ndeactivate\n\n\nrandom\n\u00b6\n\n\n\n\n\n\n\u4f7f\u7528python random\u6a21\u5757\u7684choice\u65b9\u6cd5\u968f\u673a\u9009\u62e9\u67d0\u4e2a\u5143\u7d20\n\nfrom\n \nrandom\n \nimport\n \nchoice\n\n\nfoo\n \n=\n \n[\n'a'\n,\n \n'b'\n,\n \n'c'\n,\n \n'd'\n,\n \n'e'\n]\n\n\nchoice\n(\nfoo\n)\n\n\n\n\n\n\n\n\n\u4f7f\u7528python random\u6a21\u5757\u7684sample\u51fd\u6570\u4ece\u5217\u8868\u4e2d\u968f\u673a\u9009\u62e9\u4e00\u7ec4\u5143\u7d20\n\nimport\n \nrandom\n\n\nlist\n \n=\n \n[\n1\n,\n \n2\n,\n \n3\n,\n \n4\n,\n \n5\n,\n \n6\n,\n \n7\n,\n \n8\n,\n \n9\n,\n \n10\n]\n\n\nslice\n \n=\n \nrandom\n.\nsample\n(\nlist\n,\n \n5\n)\n  \n#\u4ecelist\u4e2d\u968f\u673a\u83b7\u53d65\u4e2a\u5143\u7d20\uff0c\u4f5c\u4e3a\u4e00\u4e2a\u7247\u65ad\u8fd4\u56de\n\n\nslice\n\n\nlist\n \n#\u539f\u6709\u5e8f\u5217\u5e76\u6ca1\u6709\u6539\u53d8\u3002\n\n\n\n\n\n\n\n\npickle\n\u00b6\n\n\nimport\n \npprint\n,\n \npickle\n\n\n\npkl_file\n \n=\n \nopen\n(\n'data.pkl'\n,\n \n'rb'\n)\n\n\n\ndata1\n \n=\n \npickle\n.\nload\n(\npkl_file\n)\n\n\npprint\n.\npprint\n(\ndata1\n)\n\n\n\n\n\n\u67e5\u770b\u5f53\u524d\u4f7f\u7528\u7684python\u7684\u5305\u5b89\u88c5\u76ee\u5f55\n\u00b6\n\n\nimport\n \nsys\n\n\nsys\n.\npath\n\n\n\n\n\n\u67e5\u770b\u4f7f\u7528tempfile\u5305, \u521b\u5efa\u7684\u4e34\u65f6\u6587\u4ef6\u5728\u7535\u8111\u4e0a\u7684\u4f4d\u7f6e\n\u00b6\n\n\nimport\n \ntempfile\n\n\nwith\n \ntempfile\n.\nmkdirtempdir\n()\n \nas\n \nfp\n:\n\n    \nfp\n.\nname\n()\n\n\n\n\n\nspyder\n\u00b6\n\n\n\u5220\u9664\u6240\u6709\u53d8\u91cf: \nreset\n + y, \u5220\u9664\u5355\u4e2a\u53d8\u91cf\u7528\u53f3\u952e\n\n\u6253\u5f00\u591a\u4e2aspyder: \nspyder --new-instance\n Run a new instance of Spyder, even if the instance mode has been turned on (default)\n\n\n\u96c6\u5408set\n\u00b6\n\n\nA B \u4ea4\u96c6 \nA & B\n\nA B \u5e76\u96c6 \nA | B\n\nA B \u5dee\u96c6 \nA - B\n  \n\n\n\u5339\u914d\n\u00b6\n\n\nimport\n \nre\n\n\n\n\n\nglob\n\u00b6",
+            "title": "Python"
         },
         {
-            "location": "/notesmd/programing/python/#this-is-python",
+            "location": "/notesmd/programing/python/#python3",
             "text": "",
-            "title": "this is python"
+            "title": "python3"
+        },
+        {
+            "location": "/notesmd/programing/python/#_1",
+            "text": "python3 cookbook  |  \u672c\u5730\u4e0b\u8f7d  runoob\u83dc\u9e1f",
+            "title": "\u6559\u7a0b"
+        },
+        {
+            "location": "/notesmd/programing/python/#_2",
+            "text": "f   =   open ( \"read.txt\" ,   \"r\" )   # \u6587\u672c\u6a21\u5f0f  f   =   open ( \"read.txt\" ,   \"r\" ,   encoding   =   \"utf-8\" )   # \u8bfb\u6587\u4ef6\u7684\u65f6\u5019\u6ce8\u610f\u7f16\u7801\u65b9\u5f0f,  #python\u9ed8\u8ba4\u662funicode\u7f16\u7801\uff0c\u4f46\u662f\u8bfb\u53d6\u7684\u6587\u4ef6\u5982\u6709\u4e00\u4e9b\u4e2d\u6587\u7a7a\u683c\u3001\u6a2a\u6760\u3001\u5e0c\u814a\u5b57\u6bcd\u7684  #\u65f6\u5019\u4f1a\u62a5\u9519\u3002\u5728web\u5f00\u53d1\u4e2d\u7edf\u4e00\u4f7f\u7528utf-8\u7f16\u7801\u65b9\u5f0f\u6700\u597d\uff0c\u56e0\u4e3a\u7edd\u5927\u591a\u6570\u6d4f\u89c8\u5668\u9ed8\u8ba4\u90fd\u662futf-8\u7f16\u7801  f   =   open ( \"read.txt\" ,   \"rb\" )   # \u4e8c\u8fdb\u5236\u6a21\u5f0f  whole_file   =   f . read ()   # \u8bfb\u53d6\u6574\u4e2a\u6587\u4ef6  first_line   =   f . readline ()   # \u8bfb\u53d6\u4e00\u884c  lines   =   f . readlines ()   # \u8bfb\u53d6\u6587\u4ef6\u5230\u4e00\u4e2a\u5217\u8868  f . close ()   # \u5173\u95ed\u6587\u4ef6",
+            "title": "\u8bfb\u53d6\u6587\u4ef6"
+        },
+        {
+            "location": "/notesmd/programing/python/#_3",
+            "text": "f   =   open ( \"write\" ,   \"w\" )   # \u6587\u672c\u6a21\u5f0f  f   =   open ( \"write\" ,   \"wb\" )   # \u4e8c\u8fdb\u5236\u6a21\u5f0f",
+            "title": "\u5199\u6587\u4ef6"
+        },
+        {
+            "location": "/notesmd/programing/python/#_4",
+            "text": "tmp_str   =   ' a b '  str   =   str . strip ()   # \u8bfb\u53d6\u6587\u4ef6\u7684\u65f6\u5019\u8fdb\u884c\u6b64\u64cd\u4f5c\uff0c\u597d\u5904\u592a\u591a\u4e86, \u6bd4\u5982\u4e2d\u6587\u7684\u7279\u6b8a\u5b57\u7b26\u5728linux\u6216\u8005\u540e\u7eed\u5904\u7406\u540d\u5b57\u4e0d\u5339\u914d",
+            "title": "\u53bb\u6389\u5b57\u7b26\u4e32\u524d\u540e\u7684\u7a7a\u767d\u5b57\u7b26"
+        },
+        {
+            "location": "/notesmd/programing/python/#_5",
+            "text": "str . startswith ( '+-' )   # \u8d77\u59cb  str . endswith ( '+-' )   # \u7ed3\u5c3e  # \u5982\u679c\u4f60\u60f3\u68c0\u67e5\u591a\u79cd\u5339\u914d\u53ef\u80fd\uff0c\u53ea\u9700\u8981\u5c06\u6240\u6709\u7684\u5339\u914d\u9879\u653e\u5165\u5230\u4e00\u4e2a\u5143\u7ec4\u4e2d\u53bb\uff0c \u7136\u540e\u4f20\u7ed9 startswith() \u6216\u8005 endswith() \u65b9\u6cd5\uff1a  for   i   in   cancer_related_lncRNA_df . index : \n     for   hallmark   in   cancer_hallmarks : \n         cell_val   =   cancer_related_lncRNA_df [ hallmark ][ i ] \n         cell_val . strip () \n         if   cell_val . startswith (( '+' ,   '-' )): \n             print ( cell_val ,   \"yes\" ) \n         break",
+            "title": "\u5224\u65ad\u5b57\u7b26\u4e32\u7684\u8d77\u59cb\u548c\u7ed3\u5c3e"
+        },
+        {
+            "location": "/notesmd/programing/python/#_6",
+            "text": "# \u5206\u5272  tmp_str   =   'a b c d'  strlist   =   str . split ( ' ' )  # \u8fde\u63a5  tmp_list   =   [ 'a' ,   '1' ,   'b' ]  tmp_str   =   ' ' . join ( tmp_list )   # \u5b57\u7b26\u4e32\u662f\u4e00\u4e2a\u5bf9\u8c61\uff0c\u8fd9\u91cc\u6bd4\u8f83\u60f3\u5bf9\u5bf9\u8c61\u8fdb\u884c\u64cd\u4f5c",
+            "title": "\u5206\u5272\u5b57\u7b26\u4e32, \u548c\u8fde\u63a5\u5b57\u7b26\u4e32"
+        },
+        {
+            "location": "/notesmd/programing/python/#ospath",
+            "text": "import   os  current_path   =   os . getcwd ()  base_path   =   os . path . dirname ( current_path )  lncrna_glist_filename   =   \"fish.txt\"  file_path   =   os . path . join ( base_path ,   \"Tempresult\" ,   lncrna_glist_filename )",
+            "title": "\u5bf9\u6587\u4ef6\u5730\u5740\u7684\u64cd\u4f5cos.path"
+        },
+        {
+            "location": "/notesmd/programing/python/#ospath_1",
+            "text": "# path = \u6587\u4ef6\u8def\u5f84  os . path . exists ( path )   # \u5224\u65ad\u6587\u4ef6\u662f\u5426\u5b58\u5728  os . path . join ( '/home' ,   'zhangxuan' ,   'Project' ,   'readme.txt' )   # \u6587\u4ef6\u8def\u5f84\u8fde\u63a5  os . makedirs ( '\u6587\u4ef6\u5939\u540d' ,   exist_ok   =   True )   # \u65b0\u5efa\u6587\u4ef6\u5939\uff0c\u5982\u679c\u5df2\u7ecf\u5b58\u5728exist_ok = True\u4e0d\u4f1a\u62a5\u9519",
+            "title": "\u4e0eos.path\u914d\u5408\u65b0\u5efa\u6587\u4ef6\u5939"
+        },
+        {
+            "location": "/notesmd/programing/python/#_7",
+            "text": "# \u5bf9\u5b57\u7b26\u4e32\u7684\u4f7f\u7528\uff0c\u4e3b\u8981\u4e0d\u8981\u4f7f\u7528\u5173\u952e\u5b57\uff0c\u6bd4\u5982str\u662fpython3\u4e2d\u7684\u4e00\u4e2a\u51fd\u6570  tmp_str   =   \"\u8fd9\u662f\u7b2c\u4e00\u4e2a\u53c2\u6570param1 = {}; \u8fd9\u662f\u7b2c\u4e8c\u4e2a\u53c2\u6570param2 = {}\" . format ( param1 ,   param2 )  # \u4fdd\u7559\u6709\u6548\u5b57\u7b26\u5982\u4f55\u64cd\u4f5c\uff1f\u7b49\u540e\u7eed\u78b0\u5230\u4e4b\u540e\u6dfb\u52a0  # put code here",
+            "title": "\u683c\u5f0f\u5316\u5b57\u7b26\u4e32"
+        },
+        {
+            "location": "/notesmd/programing/python/#_8",
+            "text": "# \u4e00\u7ef4\u5b57\u5178  fasta_sequence   =   dict ()   # \u5b9a\u4e49  fasta_sequence [ 'gene1' ]   =   'ATGC'  fasta_sequence [ 'gene2' ]   =   'ATGC'  # result: {'gene1': 'ATGC', 'gene2': 'ATGC'}  # \u4e8c\u7ef4\u5b57\u5178  fasta_sequence [ 'gene1' ][ 'gene2' ]   =   'ATGC'   # \u4e8c\u7ef4\u5b57\u5178\u4e0d\u80fd\u76f4\u63a5\u8d4b\u503c  # \u4e0a\u9762\u7684\u4ee3\u7801\u4f1a\u51fa\u73b0\u8fd9\u79cd\u9519\u8bef\uff1aTypeError: 'str' object does not support item assignment  # \u5e94\u8be5\u8fd9\u6837\u521b\u5efapython\u4e8c\u7ef4\u54c8\u5e0c\uff08\u5b57\u5178\uff09  fasta_sequence   =   dict ()  fasta_sequence . setdefault ( 'gene1' ,   {})  fasta_sequence [ 'gene1' ][ 'gene2' ]   =   'ATGC'  result :   { 'gene1' :   { 'gene2' :   'a' }}",
+            "title": "\u5b57\u5178\uff08\u54c8\u5e0c\uff09\u7684\u4f7f\u7528"
+        },
+        {
+            "location": "/notesmd/programing/python/#lambda",
+            "text": "gene_list   =   [ ' gene1' ,   'gene2 ' ]  map_object   =   map ( lambda   x : x . strip (),   gene_list )   # \u8fd9\u91cc\u8fd4\u56de\u7684\u662f\u4e00\u4e2amap\u5bf9\u8c61\uff0c \u8981\u8f6c\u53d8\u6210list\u624d\u597d\u7528  gene_new_list   =   list ( map_object )  # \u8fd9\u91cc\u6709\u4e2a\u4f8b\u5b50\uff1a\u628a\u5217\u8868\u6240\u6709\u7684\u5143\u7d20\u53d8\u6210\u5b57\u7b26\u4e32\u7c7b\u578b  tmp_list   =   [ 'str1' ,   123 ]  tmp_str_list   =   list ( map ( str ,   tmp_list ))",
+            "title": "lambda\u51fd\u6570\u7684\u4f7f\u7528"
+        },
+        {
+            "location": "/notesmd/programing/python/#_9",
+            "text": "num   =   '123'  tmp_str   =   str ( num )   # \u6570\u503c\u7c7b\u578b\u6362\u5b57\u7b26\u4e32\u7c7b\u578b  tmp_chr   =   'abc'  tmp_upper_chr   =   tmp_chr . upper ()   # \u5b57\u7b26\u4e32\u5927\u5199\u8f6c\u6362\u6210\u5c0f\u5199  tmp_upper_chr   =   tmp_upper_chr . lower ()   # \u5b57\u7b26\u4e32\u5c0f\u5199\u8f6c\u6362\u6210\u5927\u5199  num   =   list ( range ( 97 , 123 ))  alphabet   =   list ( map ( chr , num ))   # chr\u51fd\u6570\u628a\u6570\u503c\u8f6c\u6362\u6210\u5b57\u7b26  lower_str   =   \"\" . join ( alphabet )  upper_str   =   lower_str . upper ()  upper_str   =   upper_str   +   \"0123456789\"",
+            "title": "\u5404\u79cd\u7c7b\u578b\u8f6c\u6362"
+        },
+        {
+            "location": "/notesmd/programing/python/#try-catch",
+            "text": "",
+            "title": "try catch"
+        },
+        {
+            "location": "/notesmd/programing/python/#json",
+            "text": "import   json  data   =   { \n     'name' :   'zhangxuan' , \n     'height' :   '162' , \n     'age' :   '28'  }  json_str   =   json . dumps ( data )   # Python\u6570\u636e\u7ed3\u6784\u8f6c\u6362\u6210JSON  data1   =   json . loads ( json_str )   # JSON\u7f16\u7801\u7684\u5b57\u7b26\u4e32\u8f6c\u6362\u6210Python\u6570\u636e\u7ed3\u6784  # \u5982\u679c\u5904\u7406\u7684\u662f\u6587\u4ef6  # Writing JSON data  with   open ( 'data.json' ,   'w' )   as   f : \n     json . dump ( data ,   f )  # Reading data back  with   open ( 'data.json' ,   'r' )   as   f : \n     data   =   json . load ( f )",
+            "title": "json"
+        },
+        {
+            "location": "/notesmd/programing/python/#_10",
+            "text": "# \u5217\u8868\u6392\u5e8f  b   =   [ 'b' ,   'a' ]  b . sort ()  b   ->   [ 'a' ,   'b' ]  # \u5b57\u5178\u8f93\u51fa\u6392\u5e8f",
+            "title": "\u6392\u5e8f"
+        },
+        {
+            "location": "/notesmd/programing/python/#logging",
+            "text": "# ----------------------------------  import   logging  log   =   logging . getLogger ( __name__ )  log . critical ( 'Host  %s  unknown' ,   hostname )  log . error ( \"Couldn't find  %r \" ,   item )  log . warning ( 'Feature is deprecated' )  log . info ( 'Opening file  %r , mode= %r ' ,   filename ,   mode )  log . debug ( 'Got here' )  # ----------------------------------  \nsee  more",
+            "title": "logging\u5305"
+        },
+        {
+            "location": "/notesmd/programing/python/#env",
+            "text": "virtualenv  \u662f\u4e00\u4e2a\u521b\u5efa\u9694\u7edd\u7684Python\u73af\u5883\u7684\u5de5\u5177\u3002  \u901a\u8fc7pip3\u5b89\u88c5virtualenv(\u6211\u60f3\u8981python3\u7684\u73af\u5883)\uff1a pip install virtualenv  \u6d4b\u8bd5\u4f60\u7684\u5b89\u88c5 virtualenv --version  \u8981\u5f00\u59cb\u4f7f\u7528\u865a\u62df\u73af\u5883\uff0c\u5176\u9700\u8981\u88ab\u6fc0\u6d3b\uff1a source my_project/bin/activate  \u5982\u679c\u4f60\u5728\u865a\u62df\u73af\u5883\u4e2d\u6682\u65f6\u5b8c\u6210\u4e86\u5de5\u4f5c\uff0c\u5219\u53ef\u4ee5\u505c\u7528\u5b83\uff1a deactivate",
+            "title": "\u865a\u62df\u73af\u5883\uff0cenv"
+        },
+        {
+            "location": "/notesmd/programing/python/#random",
+            "text": "\u4f7f\u7528python random\u6a21\u5757\u7684choice\u65b9\u6cd5\u968f\u673a\u9009\u62e9\u67d0\u4e2a\u5143\u7d20 from   random   import   choice  foo   =   [ 'a' ,   'b' ,   'c' ,   'd' ,   'e' ]  choice ( foo )     \u4f7f\u7528python random\u6a21\u5757\u7684sample\u51fd\u6570\u4ece\u5217\u8868\u4e2d\u968f\u673a\u9009\u62e9\u4e00\u7ec4\u5143\u7d20 import   random  list   =   [ 1 ,   2 ,   3 ,   4 ,   5 ,   6 ,   7 ,   8 ,   9 ,   10 ]  slice   =   random . sample ( list ,   5 )    #\u4ecelist\u4e2d\u968f\u673a\u83b7\u53d65\u4e2a\u5143\u7d20\uff0c\u4f5c\u4e3a\u4e00\u4e2a\u7247\u65ad\u8fd4\u56de  slice  list   #\u539f\u6709\u5e8f\u5217\u5e76\u6ca1\u6709\u6539\u53d8\u3002",
+            "title": "random"
+        },
+        {
+            "location": "/notesmd/programing/python/#pickle",
+            "text": "import   pprint ,   pickle  pkl_file   =   open ( 'data.pkl' ,   'rb' )  data1   =   pickle . load ( pkl_file )  pprint . pprint ( data1 )",
+            "title": "pickle"
+        },
+        {
+            "location": "/notesmd/programing/python/#python",
+            "text": "import   sys  sys . path",
+            "title": "\u67e5\u770b\u5f53\u524d\u4f7f\u7528\u7684python\u7684\u5305\u5b89\u88c5\u76ee\u5f55"
+        },
+        {
+            "location": "/notesmd/programing/python/#tempfile",
+            "text": "import   tempfile  with   tempfile . mkdirtempdir ()   as   fp : \n     fp . name ()",
+            "title": "\u67e5\u770b\u4f7f\u7528tempfile\u5305, \u521b\u5efa\u7684\u4e34\u65f6\u6587\u4ef6\u5728\u7535\u8111\u4e0a\u7684\u4f4d\u7f6e"
+        },
+        {
+            "location": "/notesmd/programing/python/#spyder",
+            "text": "\u5220\u9664\u6240\u6709\u53d8\u91cf:  reset  + y, \u5220\u9664\u5355\u4e2a\u53d8\u91cf\u7528\u53f3\u952e \n\u6253\u5f00\u591a\u4e2aspyder:  spyder --new-instance  Run a new instance of Spyder, even if the instance mode has been turned on (default)",
+            "title": "spyder"
+        },
+        {
+            "location": "/notesmd/programing/python/#set",
+            "text": "A B \u4ea4\u96c6  A & B \nA B \u5e76\u96c6  A | B \nA B \u5dee\u96c6  A - B",
+            "title": "\u96c6\u5408set"
+        },
+        {
+            "location": "/notesmd/programing/python/#_11",
+            "text": "import   re",
+            "title": "\u5339\u914d"
+        },
+        {
+            "location": "/notesmd/programing/python/#glob",
+            "text": "",
+            "title": "glob"
+        },
+        {
+            "location": "/notesmd/programing/snakemake/",
+            "text": "Snakemake\n\u00b6\n\n\n\n\nSummary: Snakemake is a workflow engine that provides a readable Python-based workflow definition language and a powerful execution environment that scales from single-core workstations to compute clusters without modifying the workflow. It is the first system to support the use of automatically inferred multiple named wildcards (or variables) in input and output filenames. Rules describe how to create\u00a0output files\u00a0from\u00a0input files.\n\n\n\n\nTable of Contents\n\n\n\n\nTutorials\n  \n\n\nExamples\n\n\n\n\nTutorials\n\u00b6\n\n\n\n\nOfficial manual v4.8.0\n\n\nPaper\n\n\n\n\nExamples\n\u00b6\n\n\nexample 1: trimmomatic\n\n# trim by trimmomatic\n\n\n\nimport\n \nos\n\n\n\n# input data\n\n\nsamples\n \n=\n \n{\nf\n[:\n-\n8\n]\n \nfor\n \nf\n \nin\n \nos\n.\nlistdir\n(\n\"clean_data\"\n)\n \nif\n \nf\n.\nendswith\n(\n\".fq.gz\"\n)}\n\n\n\n# some vars\n\n\ncleanDir\n \n=\n \n\"clean_data\"\n\n\ntrimmedDir\n \n=\n \n\"trimmed_data\"\n\n\nmappedDir\n \n=\n \n\"mapped_data\"\n\n\nindexdir\n \n=\n \n\"../../analysis/ref\"\n\n\n\n# this is target file\n\n\nrule\n \nfinal\n:\n\n    \ninput\n:\n \nexpand\n(\ntrimmedDir\n \n+\n \n\"/{sample}_1.paired.fq.gz\"\n,\n \nsample\n=\nsamples\n)\n\n\n\nrule\n \npaired_trimming\n:\n\n    \ninput\n:\n\n        \nfwd\n=\n \ncleanDir\n \n+\n \n\"/{sample}_1.fq.gz\"\n,\n\n        \nrev\n=\n \ncleanDir\n \n+\n \n\"/{sample}_2.fq.gz\"\n,\n\n    \noutput\n:\n\n        \nfwd_paired\n=\n \ntrimmedDir\n \n+\n \n\"/{sample}_1.paired.fq.gz\"\n,\n\n        \nfwd_unpaired\n=\n \ntrimmedDir\n \n+\n \n\"/{sample}_1.unpaired.fq.gz\"\n,\n\n        \nrev_paired\n=\n \ntrimmedDir\n \n+\n \n\"/{sample}_2.paired.fq.gz\"\n,\n\n        \nrev_unpaired\n=\n \ntrimmedDir\n \n+\n \n\"/{sample}_2.unpaired.fq.gz\"\n,\n\n    \nmessage\n:\n \n\"\"\"---start trimming.---\"\"\"\n\n    \nthreads\n:\n \n4\n\n    \nshell\n:\n \n\"\"\"\n\n\n        trimmomatic PE -threads {threads} {input.fwd} {input.rev} {output.fwd_paired} {output.fwd_unpaired} {output.rev_paired} {output.rev_unpaired} SLIDINGWINDOW:5:20 LEADING:20 TRAILING:20 MINLEN:50\n\n\n    \"\"\"\n\n\n\ndownload this file and just run: \nsnakemake -np -s trimmomatic.Snakefile --cores 16\n to see the jobs first.\nor run: \nsnakemake -s trimmomatic.Snakefile\n to get the result. you may also add \n-F\n to run fource.",
+            "title": "Snakemake"
+        },
+        {
+            "location": "/notesmd/programing/snakemake/#snakemake",
+            "text": "Summary: Snakemake is a workflow engine that provides a readable Python-based workflow definition language and a powerful execution environment that scales from single-core workstations to compute clusters without modifying the workflow. It is the first system to support the use of automatically inferred multiple named wildcards (or variables) in input and output filenames. Rules describe how to create\u00a0output files\u00a0from\u00a0input files.   Table of Contents   Tutorials     Examples",
+            "title": "Snakemake"
+        },
+        {
+            "location": "/notesmd/programing/snakemake/#tutorials",
+            "text": "Official manual v4.8.0  Paper",
+            "title": "Tutorials"
+        },
+        {
+            "location": "/notesmd/programing/snakemake/#examples",
+            "text": "example 1: trimmomatic # trim by trimmomatic  import   os  # input data  samples   =   { f [: - 8 ]   for   f   in   os . listdir ( \"clean_data\" )   if   f . endswith ( \".fq.gz\" )}  # some vars  cleanDir   =   \"clean_data\"  trimmedDir   =   \"trimmed_data\"  mappedDir   =   \"mapped_data\"  indexdir   =   \"../../analysis/ref\"  # this is target file  rule   final : \n     input :   expand ( trimmedDir   +   \"/{sample}_1.paired.fq.gz\" ,   sample = samples )  rule   paired_trimming : \n     input : \n         fwd =   cleanDir   +   \"/{sample}_1.fq.gz\" , \n         rev =   cleanDir   +   \"/{sample}_2.fq.gz\" , \n     output : \n         fwd_paired =   trimmedDir   +   \"/{sample}_1.paired.fq.gz\" , \n         fwd_unpaired =   trimmedDir   +   \"/{sample}_1.unpaired.fq.gz\" , \n         rev_paired =   trimmedDir   +   \"/{sample}_2.paired.fq.gz\" , \n         rev_unpaired =   trimmedDir   +   \"/{sample}_2.unpaired.fq.gz\" , \n     message :   \"\"\"---start trimming.---\"\"\" \n     threads :   4 \n     shell :   \"\"\"          trimmomatic PE -threads {threads} {input.fwd} {input.rev} {output.fwd_paired} {output.fwd_unpaired} {output.rev_paired} {output.rev_unpaired} SLIDINGWINDOW:5:20 LEADING:20 TRAILING:20 MINLEN:50      \"\"\"  \ndownload this file and just run:  snakemake -np -s trimmomatic.Snakefile --cores 16  to see the jobs first.\nor run:  snakemake -s trimmomatic.Snakefile  to get the result. you may also add  -F  to run fource.",
+            "title": "Examples"
+        },
+        {
+            "location": "/notesmd/programing/biopython/",
+            "text": "Working with sequence\n\u00b6\n\n\nif you have a FASTA file \nls_orchid.fasta\n\n\n>gi|2765658|emb|Z78533.1|CIZ78533 C.irapeanum 5.8S rRNA gene and ITS1 and ITS2 DNA\nCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTG\nAATCCGGAGGACCGGTGTACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGG\n...\n\n\n\nNow try this in Python:\n\nfrom\n \nBio\n \nimport\n \nSeqIO\n\n\nfor\n \nseq_record\n \nin\n \nSeqIO\n.\nparse\n(\n\"ls_orchid.fasta\"\n,\n \n\"fasta\"\n):\n\n    \nprint\n(\nseq_record\n.\nid\n)\n\n    \nprint\n(\nseq_record\n.\nname\n)\n\n    \nprint\n(\nseq_record\n.\ndescription\n)\n\n    \nprint\n(\nseq_record\n.\nfeatures\n)\n\n    \nprint\n(\nrepr\n(\nseq_record\n.\nseq\n))\n \n#repr() \u51fd\u6570\u5c06\u5bf9\u8c61\u8f6c\u5316\u4e3a\u4f9b\u89e3\u91ca\u5668\u8bfb\u53d6\u7684\u5f62\u5f0f\u3002\n\n    \nprint\n(\nlen\n(\nseq_record\n))\n\n\n\nAlso:\n\nfrom\n \nBio\n \nimport\n \nSeqIO\n\n\nrecord\n \n=\n \nSeqIO\n.\nread\n(\n\"ls_orchid.fasta\"\n,\n \n\"fasta\"\n)\n\n\n>>>\n \nrecord\n\n\nSeqRecord\n(\nseq\n=\nSeq\n(\n'CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGG...GGG'\n,\n \nSingleLetterAlphabet\n()),\n \nid\n=\n'gi|2765658|emb|Z78533.1|CIZ78533'\n,\n \nname\n=\n'gi|2765658|emb|Z78533.1|CIZ78533'\n,\n \ndescription\n=\n'gi|2765658|emb|Z78533.1|CIZ78533 C.irapeanum 5.8S rRNA gene and ITS1 and ITS2 DNA'\n,\n \ndbxrefs\n=\n[])\n\n\n>>>\n \n\"GAATTC\"\n \nin\n \nrecord\n\n\nFalse",
+            "title": "Biopython"
+        },
+        {
+            "location": "/notesmd/programing/biopython/#working-with-sequence",
+            "text": "if you have a FASTA file  ls_orchid.fasta  >gi|2765658|emb|Z78533.1|CIZ78533 C.irapeanum 5.8S rRNA gene and ITS1 and ITS2 DNA\nCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTG\nAATCCGGAGGACCGGTGTACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGG\n...  Now try this in Python: from   Bio   import   SeqIO  for   seq_record   in   SeqIO . parse ( \"ls_orchid.fasta\" ,   \"fasta\" ): \n     print ( seq_record . id ) \n     print ( seq_record . name ) \n     print ( seq_record . description ) \n     print ( seq_record . features ) \n     print ( repr ( seq_record . seq ))   #repr() \u51fd\u6570\u5c06\u5bf9\u8c61\u8f6c\u5316\u4e3a\u4f9b\u89e3\u91ca\u5668\u8bfb\u53d6\u7684\u5f62\u5f0f\u3002 \n     print ( len ( seq_record ))  \nAlso: from   Bio   import   SeqIO  record   =   SeqIO . read ( \"ls_orchid.fasta\" ,   \"fasta\" )  >>>   record  SeqRecord ( seq = Seq ( 'CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGG...GGG' ,   SingleLetterAlphabet ()),   id = 'gi|2765658|emb|Z78533.1|CIZ78533' ,   name = 'gi|2765658|emb|Z78533.1|CIZ78533' ,   description = 'gi|2765658|emb|Z78533.1|CIZ78533 C.irapeanum 5.8S rRNA gene and ITS1 and ITS2 DNA' ,   dbxrefs = [])  >>>   \"GAATTC\"   in   record  False",
+            "title": "Working with sequence"
         },
         {
             "location": "/project/",
