@@ -325,6 +325,8 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
+      
+    
     
       <label class="md-nav__link md-nav__link--active" for="toc">
         Biopython
@@ -338,13 +340,50 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#working-with-sequence" title="Working with sequence" class="md-nav__link">
-    Working with sequence
+  <a href="#reading-sequence-file" title="reading sequence file" class="md-nav__link">
+    reading sequence file
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seqioparse-return-a-iterator" title="SeqIO.parse return a iterator" class="md-nav__link">
+    SeqIO.parse return a iterator
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-a-list-of-the-records-in-a-sequence-file" title="Getting a list of the records in a sequence file" class="md-nav__link">
+    Getting a list of the records in a sequence file
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also-seqioread" title="See also SeqIO.read:" class="md-nav__link">
+    See also SeqIO.read:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequence-files-as-dictionaries-in-memory" title="Sequence files as Dictionaries - In memory" class="md-nav__link">
+    Sequence files as Dictionaries - In memory
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#write" title="write" class="md-nav__link">
+    write
   </a>
   
 </li>
@@ -357,6 +396,66 @@
   
 </nav>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../linux/" title="Linux" class="md-nav__link">
+      Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../django/" title="Django" class="md-nav__link">
+      Django
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../perl/" title="Perl" class="md-nav__link">
+      Perl
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bioinformatics/" title="Booinformatics" class="md-nav__link">
+      Booinformatics
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mkdocs/" title="MkDocs" class="md-nav__link">
+      MkDocs
+    </a>
   </li>
 
         
@@ -420,13 +519,50 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#working-with-sequence" title="Working with sequence" class="md-nav__link">
-    Working with sequence
+  <a href="#reading-sequence-file" title="reading sequence file" class="md-nav__link">
+    reading sequence file
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seqioparse-return-a-iterator" title="SeqIO.parse return a iterator" class="md-nav__link">
+    SeqIO.parse return a iterator
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-a-list-of-the-records-in-a-sequence-file" title="Getting a list of the records in a sequence file" class="md-nav__link">
+    Getting a list of the records in a sequence file
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also-seqioread" title="See also SeqIO.read:" class="md-nav__link">
+    See also SeqIO.read:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequence-files-as-dictionaries-in-memory" title="Sequence files as Dictionaries - In memory" class="md-nav__link">
+    Sequence files as Dictionaries - In memory
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#write" title="write" class="md-nav__link">
+    write
   </a>
   
 </li>
@@ -450,16 +586,14 @@
                   <a href="https://github.com/xuanblo/notebook/edit/master/docs/notesmd/programing/biopython.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Biopython</h1>
-                
-                <h2 id="working-with-sequence">Working with sequence<a class="headerlink" href="#working-with-sequence" title="Permanent link">&para;</a></h2>
+                <h1 id="working-with-sequence">Working with sequence<a class="headerlink" href="#working-with-sequence" title="Permanent link">&para;</a></h1>
 <p>if you have a FASTA file <code>ls_orchid.fasta</code>
 <div class="codehilite"><pre><span></span>&gt;gi|2765658|emb|Z78533.1|CIZ78533 C.irapeanum 5.8S rRNA gene and ITS1 and ITS2 DNA
 CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGGAATAAACGATCGAGTG
 AATCCGGAGGACCGGTGTACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGG
 ...
 </pre></div></p>
-<p>Now try this in Python:
+<h2 id="reading-sequence-file">reading sequence file<a class="headerlink" href="#reading-sequence-file" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">Bio</span> <span class="kn">import</span> <span class="n">SeqIO</span>
 <span class="k">for</span> <span class="n">seq_record</span> <span class="ow">in</span> <span class="n">SeqIO</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="s2">&quot;ls_orchid.fasta&quot;</span><span class="p">,</span> <span class="s2">&quot;fasta&quot;</span><span class="p">):</span>
     <span class="k">print</span><span class="p">(</span><span class="n">seq_record</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
@@ -469,14 +603,44 @@ AATCCGGAGGACCGGTGTACTCAGCTCACCGGGGGCATTGCTCCCGTGGTGACCCTGATTTGTTGTTGGG
     <span class="k">print</span><span class="p">(</span><span class="nb">repr</span><span class="p">(</span><span class="n">seq_record</span><span class="o">.</span><span class="n">seq</span><span class="p">))</span> <span class="c1">#repr() 函数将对象转化为供解释器读取的形式。</span>
     <span class="k">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">seq_record</span><span class="p">))</span>
 </pre></div>
-Also:
+
+<h2 id="seqioparse-return-a-iterator">SeqIO.parse return a iterator<a class="headerlink" href="#seqioparse-return-a-iterator" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><span class="n">record_iterator</span> <span class="o">=</span> <span class="n">SeqIO</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="s2">&quot;ls_orchid.fasta&quot;</span><span class="p">,</span> <span class="s2">&quot;fasta&quot;</span><span class="p">)</span>
+<span class="n">record</span> <span class="o">=</span> <span class="n">record_iterator</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+</pre></div>
+
+<h2 id="getting-a-list-of-the-records-in-a-sequence-file">Getting a list of the records in a sequence file<a class="headerlink" href="#getting-a-list-of-the-records-in-a-sequence-file" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">Bio</span> <span class="kn">import</span> <span class="n">SeqIO</span>
+<span class="n">records</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">SeqIO</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="s2">&quot;ls_orchid.gbk&quot;</span><span class="p">,</span> <span class="s2">&quot;genbank&quot;</span><span class="p">))</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Found </span><span class="si">%i</span><span class="s2"> records&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">records</span><span class="p">))</span>
+
+<span class="k">print</span> <span class="s2">&quot;The last record&quot;</span>
+<span class="n">last_record</span> <span class="o">=</span> <span class="n">records</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1">#using Python&#39;s list tricks</span>
+</pre></div>
+
+<h2 id="see-also-seqioread">See also <code>SeqIO.read</code>:<a class="headerlink" href="#see-also-seqioread" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">Bio</span> <span class="kn">import</span> <span class="n">SeqIO</span>
 <span class="n">record</span> <span class="o">=</span> <span class="n">SeqIO</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s2">&quot;ls_orchid.fasta&quot;</span><span class="p">,</span> <span class="s2">&quot;fasta&quot;</span><span class="p">)</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">record</span>
 <span class="n">SeqRecord</span><span class="p">(</span><span class="n">seq</span><span class="o">=</span><span class="n">Seq</span><span class="p">(</span><span class="s1">&#39;CGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTGATGAGACCGTGG...GGG&#39;</span><span class="p">,</span> <span class="n">SingleLetterAlphabet</span><span class="p">()),</span> <span class="nb">id</span><span class="o">=</span><span class="s1">&#39;gi|2765658|emb|Z78533.1|CIZ78533&#39;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;gi|2765658|emb|Z78533.1|CIZ78533&#39;</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s1">&#39;gi|2765658|emb|Z78533.1|CIZ78533 C.irapeanum 5.8S rRNA gene and ITS1 and ITS2 DNA&#39;</span><span class="p">,</span> <span class="n">dbxrefs</span><span class="o">=</span><span class="p">[])</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="s2">&quot;GAATTC&quot;</span> <span class="ow">in</span> <span class="n">record</span>
 <span class="bp">False</span>
-</pre></div></p>
+</pre></div>
+
+<h2 id="sequence-files-as-dictionaries-in-memory">Sequence files as Dictionaries - In memory<a class="headerlink" href="#sequence-files-as-dictionaries-in-memory" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">Bio</span> <span class="kn">import</span> <span class="n">SeqIO</span>
+<span class="n">orchid_dict</span> <span class="o">=</span> <span class="n">SeqIO</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">SeqIO</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="s2">&quot;ls_orchid.gbk&quot;</span><span class="p">,</span> <span class="s2">&quot;genbank&quot;</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">orchid_dict</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+<span class="k">print</span><span class="p">(</span><span class="n">orchid_dict</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+</pre></div>
+
+<div class="admonition info">
+<p class="admonition-title">Reasons to choose Bio.SeqIO.to_dict() over either Bio.SeqIO.index() or Bio.SeqIO.index_db() boil down to a need for flexibility despite its high memory needs.</p>
+</div>
+<h2 id="write">write<a class="headerlink" href="#write" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><span class="n">SeqIO</span><span class="o">.</span><span class="n">write</span><span class="p">()</span>
+</pre></div>
                 
                   
                 
@@ -512,13 +676,13 @@ Also:
           </a>
         
         
-          <a href="../../../project/" title="Project on Github" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../linux/" title="Linux" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Project on Github
+                Linux
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
