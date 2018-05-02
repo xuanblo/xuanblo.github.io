@@ -368,8 +368,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../bioinformatics/" title="Booinformatics" class="md-nav__link">
-      Booinformatics
+    <a href="../bioinformatics/" title="Bioinformatics" class="md-nav__link">
+      Bioinformatics
     </a>
   </li>
 
@@ -405,6 +405,13 @@
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#markdown" title="Markdown 约定" class="md-nav__link">
+    Markdown 约定
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#install" title="install" class="md-nav__link">
@@ -469,7 +476,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#markdown" title="Markdown 语法" class="md-nav__link">
+  <a href="#markdown_1" title="Markdown 语法" class="md-nav__link">
     Markdown 语法
   </a>
   
@@ -650,6 +657,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#markdown" title="Markdown 约定" class="md-nav__link">
+    Markdown 约定
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#install" title="install" class="md-nav__link">
     install
   </a>
@@ -712,7 +726,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#markdown" title="Markdown 语法" class="md-nav__link">
+  <a href="#markdown_1" title="Markdown 语法" class="md-nav__link">
     Markdown 语法
   </a>
   
@@ -849,6 +863,17 @@
 <li><a href="http://beautycss.net/2017/01/23/use-mkdocs-on-mac/">mkdocs on mac</a> </li>
 <li>[markdown-material(<a href="https://squidfunk.github.io/mkdocs-material/">https://squidfunk.github.io/mkdocs-material/</a>)</li>
 </ul>
+<h2 id="markdown">Markdown 约定<a class="headerlink" href="#markdown" title="Permanent link">&para;</a></h2>
+<ul>
+<li>链接均使用<a href="../url">text</a>的格式，已翻译的文档使用<a href="xxx.md">text（zh）</a>形式，未翻译的文档使用<a href="../url">text（en）</a>形式。</li>
+<li>原文的粗体、代码、斜体等 style 均需在 Markdown 中体现。</li>
+<li>原文的笔记部分在 Markdown 中体现为引用。</li>
+<li>h1 - h6（也即 md 中的多个 # 符号）前后无需添加水平线（即 md 中的---）。</li>
+<li>用于段落标题一个或多个连续的 # 后面应该有一个空格。</li>
+<li>代码块与上下文之间要空且只一行，并使用正确的代码类型标注。</li>
+<li>不要大量使用无意义的空行。</li>
+<li>原文文档中的图片储存在docs/img/目录下，引用采用<img alt="text" src="../img/xxx.png" />的形式。其中 text 需要认真填写，可使用原文档中的提示。</li>
+</ul>
 <h2 id="install">install<a class="headerlink" href="#install" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span><span class="c1"># 先安装好python3和pip3</span>
 pip install mkdocs <span class="c1"># 1. 安装MkDocs包</span>
@@ -936,7 +961,7 @@ docs/
 <li>新增加的页面设置url</li>
 </ul>
 <p><img alt="Screenshot" src="../../../img/mydocpath3.png" /></p>
-<h2 id="markdown">Markdown 语法<a class="headerlink" href="#markdown" title="Permanent link">&para;</a></h2>
+<h2 id="markdown_1">Markdown 语法<a class="headerlink" href="#markdown_1" title="Permanent link">&para;</a></h2>
 <h4 id="_3">分隔线<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
 <hr />
 <h4 id="123">标题1,2,3...<a class="headerlink" href="#123" title="Permanent link">&para;</a></h4>
@@ -1047,7 +1072,7 @@ block.
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../bioinformatics/" title="Booinformatics" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../bioinformatics/" title="Bioinformatics" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1056,7 +1081,7 @@ block.
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Booinformatics
+                Bioinformatics
               </span>
             </div>
           </a>
